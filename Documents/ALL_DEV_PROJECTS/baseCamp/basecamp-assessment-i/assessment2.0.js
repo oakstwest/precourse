@@ -66,10 +66,10 @@ if (colorResponse = 'green'){
   console.log ("Green is okay");
 }
 else if (colorResponse = 'red'){
-  console.log ("I heart red";)
+  console.log ("I heart red")
 }
 else {
-  console.log ("What is your favorite color?";)
+  console.log ("What is your favorite color?")
 }
 }
 responseCreator (Green);
@@ -77,16 +77,20 @@ responseCreator (Green);
 // #9 Create a function called 'sum' that takes in one parameter and returns the sum of that parameter added it itself.
 
 // CODE HERE
-function sum = (num1){
-  console.log(num1+num1);
+function sum (parameter) {
+  return (parameter + parameter)
 }
 
+
+function newFunction() {
+  return num1 + num1;
+}
 
 // #10 Create a function called 'greeter' that takes in two parameters, name and number. Have 'greeter' return a string that says something like this 'Hi! I am Bryan and I am 28 years old" but with the appropriate values..
 
 // CODE HERE
 function greeter (name, num1){
   console.log ("Hi! I am"+name+" and I am"
-+num1+ "years old";)
++num1+ "years old")
 };
 greeter('Chris', 36);
